@@ -3,22 +3,25 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
   }
   
   header {
     background: #333;
     color: #fff;
     padding: 1rem 0;
-    text-align: center;
   }
   
   header h1 {
     margin: 0;
+    text-align: center;
   }
   
   nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
   }
   
   nav ul li {
@@ -31,9 +34,22 @@ body {
     text-decoration: none;
   }
   
-  section {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  main {
     padding: 20px;
-    margin: 10px 0;
+  }
+  
+  #portfolio .project {
+    margin: 20px 0;
+  }
+  
+  #portfolio img {
+    max-width: 100%;
+    height: auto;
   }
   
   footer {
