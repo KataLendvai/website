@@ -3,46 +3,180 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Photography Portfolio</title>
+  <title>Photography Portfolio - Capturing Your Beautiful Moments</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>Photography Portfolio</h1>
+      <div class="logo">
+        <h1>Photography Portfolio</h1>
+      </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="contact.html">Contact Me</a></li>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="booking.html">Book Session</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="portfolio">
-      <h2>My Projects</h2>
-      <div class="project">
-        <h3>Project 1: Nature Photography</h3>
-        <img src="https://via.placeholder.com/400" alt="Nature">
-        <p>A collection of serene landscapes and breathtaking nature photography.</p>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Capturing Life's Beautiful Moments</h1>
+        <p class="hero-subtitle">Professional photography that tells your unique story</p>
+        <div class="hero-buttons">
+          <a href="portfolio.html" class="btn-primary">View Portfolio</a>
+          <a href="booking.html" class="btn-secondary">Book a Session</a>
+        </div>
       </div>
-      <div class="project">
-        <h3>Project 2: Portrait Photography</h3>
-        <img src="https://via.placeholder.com/400" alt="Portrait">
-        <p>Beautiful portraits capturing the essence of human emotions.</p>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container">
+        <h2 class="section-title">Photography Services</h2>
+        <p class="section-subtitle">Specializing in various photography styles to meet your needs</p>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">📸</div>
+            <h3>Portrait Photography</h3>
+            <p>Professional headshots and personal portraits that capture your essence and personality.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">💒</div>
+            <h3>Wedding Photography</h3>
+            <p>Timeless wedding photography to preserve your special day for years to come.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🌄</div>
+            <h3>Nature & Landscape</h3>
+            <p>Stunning landscape photography capturing the beauty of the natural world.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🎉</div>
+            <h3>Event Photography</h3>
+            <p>Coverage for corporate events, parties, and special celebrations of all kinds.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">🏙️</div>
+            <h3>Urban Photography</h3>
+            <p>Dynamic cityscapes and street photography showcasing urban life and architecture.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">👨‍👩‍👧‍👦</div>
+            <h3>Family Photography</h3>
+            <p>Warm family portraits that capture the love and connection between family members.</p>
+            <a href="booking.html" class="service-link">Book Now →</a>
+          </div>
+        </div>
       </div>
-      <div class="project">
-        <h3>Project 3: Urban Photography</h3>
-        <img src="https://via.placeholder.com/400" alt="Urban">
-        <p>Dynamic shots of cityscapes and the vibrancy of urban life.</p>
+    </section>
+
+    <!-- Featured Work Preview -->
+    <section id="featured-work">
+      <div class="container">
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-subtitle">A glimpse into recent photography projects</p>
+
+        <div class="featured-grid">
+          <div class="featured-item">
+            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&h=600&fit=crop" alt="Portrait">
+            <div class="featured-overlay">
+              <h3>Portrait Sessions</h3>
+            </div>
+          </div>
+          <div class="featured-item">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=600&h=600&fit=crop" alt="Wedding">
+            <div class="featured-overlay">
+              <h3>Weddings</h3>
+            </div>
+          </div>
+          <div class="featured-item">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&h=600&fit=crop" alt="Nature">
+            <div class="featured-overlay">
+              <h3>Nature</h3>
+            </div>
+          </div>
+          <div class="featured-item">
+            <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=600&fit=crop" alt="Urban">
+            <div class="featured-overlay">
+              <h3>Urban</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="portfolio.html" class="btn-primary">View Full Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Clients Say</h2>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Absolutely stunning work! The photographer captured our wedding day perfectly. Every photo tells a story."</p>
+            <p class="testimonial-author">- Sarah & Michael</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Professional, creative, and a pleasure to work with. My headshots came out amazing!"</p>
+            <p class="testimonial-author">- Jennifer L.</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"The family photos are incredible. We'll treasure these memories forever. Highly recommend!"</p>
+            <p class="testimonial-author">- The Johnson Family</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+      <div class="container">
+        <h2>Ready to Create Something Beautiful?</h2>
+        <p>Let's work together to capture your special moments</p>
+        <a href="booking.html" class="btn-primary">Book a Session Today</a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2025 Photography Portfolio. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Twitter">Twitter</a>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
